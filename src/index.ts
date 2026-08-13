@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.get("/", (req: Request, res: Response) => {
-  return res.send("It's working wo00🙌");
+  return res.send("HELLO WORLD");
 });
 
 
